@@ -1,0 +1,12 @@
+url_patterns:
+  - 'https:\/\/forms\.gle\/[a-zA-Z0-9]+' # short url
+  - 'https:\/\/docs\.google\.com\/forms\/d\/e\/[a-zA-Z0-9_\-]+\/viewform(\?usp=sf_link)?' # full url
+
+headers:
+  User-Agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.246'
+
+driver_options:
+  args:
+    - incognito
+    - disable-gpu
+    - headless
